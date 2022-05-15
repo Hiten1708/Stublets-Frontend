@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600|Work+Sans:400,500,600,700&display=swap');
+
+body{
+  /* background: linear-gradient(to right, #B6E1E0 0%, #B6E1E0 50%, #FFFEF9 50%, #FFFEF9 100%); */
+  background-image: url("/src/Components/images/UWstock\ 1.jpg");
+  font-family: "work sans";
+}
+
+html{
+  font-size: 100%;
+}
+
+
+.W2S {
+    padding: 20px;
+    padding-top: 70px;
+    width: 206px;
+    height: 30px;
+    left: calc(50% - 206px/2 - 122px);
+    top: 129px;
+}
+.noAccount {
+    position: absolute;
+    padding-top: 60px;
+    padding-right: 10px;
+    width: 190px;
+    height: 35.52px;
+    right: calc(50% - 300px/2 - 122px);
+    top: 109px;
+    color: #8D8D8D;
+}
+.SignUp {
+    text-decoration: none;
+    color: #E8630A;
+}
+
+.ForgotPass{
+    position: relative;
+    left: 150px;
+    top: 10px;
+    text-decoration: none;
+    color: #E8630A;
+}
+
+#loginform{
+  max-width: 540px;
+  min-width: 539px;
+  max-height: 700px;
+  width: 100%;
+  height: 60%;
+  margin: 100px auto;
+  background-color: #FFFFFF;
+  border-radius: 25px;
+}
+
+#headerTitle{
+  
+  text-align: left;
+  font-family: 'open sans', sans-serif;
+  margin: 0;
+  font-size: 55px;
+  margin-left: 40px;
+}
+
+.row{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+  max-width: 100%;
+  
+}
+
+.row input{
+  width: 80%;
+  box-sizing: border-box;
+	border: none;
+  font-size: 1.3rem;
+  padding-left: 1.5rem;
+  padding-bottom: 1rem;
+  box-shadow: inset 0px -3px 0px 0px rgba(187,187,187,0.2);
+  transition: box-shadow 0.2s ease-in;
+}
+
+.row input:focus{
+   box-shadow: inset 0px -3px 0px 0px rgba(34,193,195,0.7);
+   outline: none;
+}
+
+.row input::-webkit-input-placeholder{
+  opacity: 1;
+  transition: opacity 0.25s ease-out;
+}
+
+.row input:hover::-webkit-input-placeholder,
+.row input:focus::-webkit-input-placeholder{
+  opacity: 0;
+}
+
+.row label{
+  align-self: start;
+  padding-left: 4.5rem;
+  padding-bottom: 0.5rem;
+  color: rgba(187,187,187,0.9);
+}
+
+.row button{
+    width: 400px;
+    height: 54px;
+    left: 494px;
+    top: 570px;
+    
+    background: #E8630A;
+    border-radius: 10px;
+    border: none;
+}
+
+.row button:hover{
+  opacity: 0.8;
+}
+
+#button{
+  padding-bottom: 1.5rem;
+}
+
+#facebookIcon{
+    background-image: url("/src/Components/images/facebookIcon.svg");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+  }
+  
+  #googleIcon{
+    background-image: url("/src/Components/images/googleIcon.svg");
+    background-repeat: no-repeat;
+    width: 3rem;
+    height: 3rem;
+  }
+
+#iconGroup{
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+#iconGroup a{
+  margin: 0 0.6rem;
+}
+
+#alternativeLogin {
+   text-align: center;
+   padding-top: 2rem;
+   margin-top: 1.5rem;
+}
+
+
