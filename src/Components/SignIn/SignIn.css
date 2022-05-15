@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:600|Work+Sans:400,500,600,700&display=swap');
 
 body{
-  background: linear-gradient(to right, #B6E1E0 0%, #B6E1E0 50%, #FFFEF9 50%, #FFFEF9 100%);
+  /* background: linear-gradient(to right, #B6E1E0 0%, #B6E1E0 50%, #FFFEF9 50%, #FFFEF9 100%); */
+  background-image: url("/src/Components/images/UWstock\ 1.jpg");
   font-family: "work sans";
 }
 
@@ -9,20 +10,43 @@ html{
   font-size: 100%;
 }
 
-#sqr{
-    position: absolute; 
-    width: 731px; 
-    height: 900px;
-    left: 0px; 
-    top: 0px;
-    background-color: #f00;
+
+.W2S {
+    padding: 20px;
+    padding-top: 70px;
+    width: 206px;
+    height: 30px;
+    left: calc(50% - 206px/2 - 122px);
+    top: 129px;
+}
+.noAccount {
+    position: absolute;
+    padding-top: 60px;
+    padding-right: 10px;
+    width: 190px;
+    height: 35.52px;
+    right: calc(50% - 300px/2 - 122px);
+    top: 109px;
+    color: #8D8D8D;
+}
+.SignUp {
+    text-decoration: none;
+    color: #E8630A;
+}
+
+.ForgotPass{
+    position: relative;
+    left: 150px;
+    top: 10px;
+    text-decoration: none;
+    color: #E8630A;
 }
 
 #loginform{
-  max-width: 500px;
-  min-width: 300px;
+  max-width: 540px;
+  min-width: 539px;
   max-height: 700px;
-  width: 30%;
+  width: 100%;
   height: 60%;
   margin: 100px auto;
   background-color: #FFFFFF;
@@ -30,11 +54,12 @@ html{
 }
 
 #headerTitle{
-  text-align: center;
+  
+  text-align: left;
   font-family: 'open sans', sans-serif;
-  padding: 2rem 0;
   margin: 0;
-  font-size: 2rem;
+  font-size: 55px;
+  margin-left: 40px;
 }
 
 .row{
@@ -80,17 +105,14 @@ html{
 }
 
 .row button{
-  border-radius: 25px;
-  width: 80%;
-  height: 40px;
-  font-size: 1.3rem;
-  color: white;
-  font-weight: 700;
-  background: rgb(34,193,195);
-  background: linear-gradient(90deg, rgba(34,193,195,1) 0%,     rgba(253,187,45,1) 100%);
-  border: 0px;
-  cursor: pointer;
-  transition: opacity 0.25s ease-out;
+    width: 400px;
+    height: 54px;
+    left: 494px;
+    top: 570px;
+    
+    background: #E8630A;
+    border-radius: 10px;
+    border: none;
 }
 
 .row button:hover{
@@ -102,21 +124,14 @@ html{
 }
 
 #facebookIcon{
-    background-image: url("https://image.flaticon.com/icons/svg/145/145802.svg");
+    background-image: url("/src/Components/images/facebookIcon.svg");
     background-repeat: no-repeat;
-    width: 3rem;
-    height: 3rem;
-  }
-  
-  #twitterIcon{
-    background-image: url("https://image.flaticon.com/icons/svg/145/145812.svg");
-    background-repeat: no-repeat;
-    width: 3rem;
-    height: 3rem;
+    width: 50px;
+    height: 50px;
   }
   
   #googleIcon{
-    background-image: url("https://image.flaticon.com/icons/svg/145/145804.svg");
+    background-image: url("/src/Components/images/googleIcon.svg");
     background-repeat: no-repeat;
     width: 3rem;
     height: 3rem;

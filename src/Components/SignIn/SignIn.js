@@ -3,7 +3,7 @@ import './SignIn.css';
 function LoginForm(){
     return(
       <div id="loginform">
-        <FormHeader title="Login" />
+        <FormHeader title="Log In" />
         <Form />
         <OtherMethods />
       </div>
@@ -15,9 +15,9 @@ const FormHeader = props => (
             <div className="W2S">
                 Welcome to Stublets
             </div>
-            <div className="HaveAccount">
-                Have an Account? 
-                <div><a href="#"></a></div>
+            <div className="noAccount">
+                No Account? 
+                <div><a className="SignUp" href="#">Sign up</a></div>
             </div>
             <h2 id="headerTitle">{props.title}</h2>
 
@@ -29,6 +29,7 @@ const Form = props => (
    <div>
      <FormInput description="Email" placeholder="Enter your email address" type="text" />
      <FormInput description="Password" placeholder="Enter your password" type="password"/>
+     <a className="ForgotPass" href="#">Forgot Password?</a>
      <FormButton title="Log in"/>
    </div>
 );
