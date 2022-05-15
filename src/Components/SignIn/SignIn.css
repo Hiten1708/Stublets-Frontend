@@ -1,13 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:600|Work+Sans:400,500,600,700&display=swap');
 
 body{
-  background: rgb(34,193,195);
-  background: linear-gradient(135deg, rgba(34,193,195,1) 0%,     rgba(253,187,45,1) 100%);
+  background: linear-gradient(to right, #B6E1E0 0%, #B6E1E0 50%, #FFFEF9 50%, #FFFEF9 100%);
   font-family: "work sans";
 }
 
 html{
   font-size: 100%;
+}
+
+#sqr{
+    position: absolute; 
+    width: 731px; 
+    height: 900px;
+    left: 0px; 
+    top: 0px;
+    background-color: #f00;
 }
 
 #loginform{
@@ -92,6 +100,27 @@ html{
 #button{
   padding-bottom: 1.5rem;
 }
+
+#facebookIcon{
+    background-image: url("https://image.flaticon.com/icons/svg/145/145802.svg");
+    background-repeat: no-repeat;
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  #twitterIcon{
+    background-image: url("https://image.flaticon.com/icons/svg/145/145812.svg");
+    background-repeat: no-repeat;
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  #googleIcon{
+    background-image: url("https://image.flaticon.com/icons/svg/145/145804.svg");
+    background-repeat: no-repeat;
+    width: 3rem;
+    height: 3rem;
+  }
 
 #iconGroup{
   display: flex;

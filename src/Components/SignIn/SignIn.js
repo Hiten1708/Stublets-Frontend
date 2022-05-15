@@ -1,4 +1,5 @@
 import './SignIn.css';
+
 function LoginForm(){
     return(
       <div id="loginform">
@@ -10,12 +11,23 @@ function LoginForm(){
 }
 
 const FormHeader = props => (
-    <h2 id="headerTitle">{props.title}</h2>
+    <div>
+            <div className="W2S">
+                Welcome to Stublets
+            </div>
+            <div className="HaveAccount">
+                Have an Account? 
+                <div><a href="#"></a></div>
+            </div>
+            <h2 id="headerTitle">{props.title}</h2>
+
+    </div>
+    
 );
 
 const Form = props => (
    <div>
-     <FormInput description="Username" placeholder="Enter your username" type="text" />
+     <FormInput description="Email" placeholder="Enter your email address" type="text" />
      <FormInput description="Password" placeholder="Enter your password" type="password"/>
      <FormButton title="Log in"/>
    </div>
@@ -35,12 +47,28 @@ const FormInput = props => (
 );
 
 const OtherMethods = props => (
-  <div id="alternativeLogin">
-    <label>Or sign in with:</label>
-    <div id="iconGroup">
+    <div id="alternativeLogin">
+      <label>Or sign in with:</label>
+      <div id="iconGroup">
+        <Facebook />
+        <Twitter />
+        <Google />
+      </div>
     </div>
-  </div>
-);
+  );
+  
+  const Facebook = props => (
+    <a href="#" id="facebookIcon"></a>
+  );
+  
+  const Twitter = props => (
+    <a href="#" id="twitterIcon"></a>
+  );
+  
+  const Google = props => (
+    <a href="#" id="googleIcon"></a>
+  );
+  
 
 export default LoginForm
     
