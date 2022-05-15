@@ -52,7 +52,7 @@ const OtherMethods = props => (
       <label>Or sign in with:</label>
       <div id="iconGroup">
         <Facebook />
-        <Twitter />
+        <Apple />
         <Google />
       </div>
     </div>
@@ -62,8 +62,8 @@ const OtherMethods = props => (
     <a href="#" id="facebookIcon"></a>
   );
   
-  const Twitter = props => (
-    <a href="#" id="twitterIcon"></a>
+  const Apple = props => (
+    <a href="#" id="appleIcon"></a>
   );
   
   const Google = props => (

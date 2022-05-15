@@ -130,12 +130,19 @@ html{
     height: 50px;
   }
   
-  #googleIcon{
-    background-image: url("/src/Components/images/googleIcon.svg");
+#googleIcon{
+background-image: url("/src/Components/images/googleIcon.svg");
+background-repeat: no-repeat;
+width: 50px;
+height: 50px;
+}
+
+#appleIcon{
+    background-image: url("/src/Components/images/appleIcon.svg");
     background-repeat: no-repeat;
-    width: 3rem;
-    height: 3rem;
-  }
+    width: 50px;
+    height: 50px;
+}
 
 #iconGroup{
   display: flex;
